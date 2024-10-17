@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>유저 페이지입니다.</h1>
+    <ul>
+        <li>이름 : [[${member.name}]]</li>
+        <li>아이디 : [[${member.id}]]</li>
+<!--        <li>비밀번호 : [[${member.pw}]]</li>-->
+    </ul>
+</body>
+</html>
